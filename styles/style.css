@@ -16,14 +16,14 @@
 
 .page__heading {
   z-index: 1;
-  width: 600px;
-  margin-top: 31px;
+  width: 739px;
+  margin-top: 60px;
   margin-right: auto;
   margin-left: auto;
   font-weight: 800;
-  font-size: 76px;
-  line-height: 1.149;
-  letter-spacing: 1.1px;
+  font-size: 116px;
+  line-height: 128px;
+  letter-spacing: 0.035em;
   text-align: center;
   text-transform: uppercase;
 }
@@ -35,15 +35,16 @@
 .page__heading:hover::before {
   content: "На самом деле нет.\AВажнее &mdash; научиться ошибаться.";
   position: absolute;
-  top: 108px;
+  min-width: 95%;
+  top: 185px;
   right: 12px;
   border: 2px solid black;
   border-radius: 16px;
   padding: 20px 32px;
   box-shadow: 0 10px 0 0 #000;
   font-weight: 400;
-  font-size: 22px;
-  line-height: 1.1;
+  font-size: 35px;
+  line-height: 35px;
   letter-spacing: normal;
   text-align: left;
   text-transform: none;
