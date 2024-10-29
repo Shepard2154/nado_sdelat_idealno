@@ -1,12 +1,14 @@
 .page {
   position: relative;
   z-index: 0;
+  display: flex;
+  flex-direction: column;
   min-width: 800px;
   border-top: 1px solid transparent;
 }
 
 .page::before {
-  content: '';
+  content: "";
   position: absolute;
   inset: 0;
   background-color: rgb(255 255 255 / 0.3);
@@ -27,16 +29,26 @@
 }
 
 .page__heading::after {
-  content: '*';
+  content: "*";
 }
 
 .page__heading:hover::before {
-  content: 'На самом деле нет.\AВажнее &mdash; научиться ошибаться.';
+  content: "На самом деле нет.\AВажнее &mdash; научиться ошибаться.";
+  position: absolute;
+  top: 108px;
+  right: 12px;
+  border: 2px solid black;
+  border-radius: 16px;
+  padding: 20px 32px;
+  box-shadow: 0 10px 0 0 #000;
   font-weight: 400;
-  font-size: 35px;
-  line-height: 35px;
-  white-space: pre;
+  font-size: 22px;
+  line-height: 1.1;
+  letter-spacing: normal;
+  text-align: left;
+  text-transform: none;
   background-color: #fff;
+  white-space: pre;
 }
 
 video {
