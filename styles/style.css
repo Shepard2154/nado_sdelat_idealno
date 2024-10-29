@@ -22,7 +22,7 @@
   margin-left: auto;
   color: #4c4c4c;
   font-weight: 800;
-  font-size: 116px;
+  font-size: 118px;
   line-height: 136.18px;
   letter-spacing: 0.035em;
   text-align: center;
@@ -36,12 +36,12 @@
 .page__heading:hover::before {
   content: "На самом деле нет.\AВажнее &mdash; научиться ошибаться.";
   position: absolute;
-  top: 185px;
+  top: 183px;
   right: 12px;
   min-width: 95%;
   border: 2px solid black;
   border-radius: 16px;
-  padding: 38px 44px;
+  padding: 36px 44px;
   box-shadow: 0 10px 0 0 #000;
   font-weight: 400;
   font-size: 35px;
